@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import posts from '../../content/posts'
+import posts from '../content/posts'
 
 export function BlogPosts() {
 

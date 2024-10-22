@@ -1,4 +1,6 @@
+'use client'
 import Link from 'next/link'
+import ThemeToggle from './theme'
 
 const navItems = {
   '/': {
@@ -32,6 +34,7 @@ export function Navbar() {
                 </Link>
               )
             })}
+            <ThemeToggle />
           </div>
         </nav>
       </div>

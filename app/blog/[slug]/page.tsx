@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation'
 import { baseUrl } from 'app/sitemap'
 import posts from 'content/posts'
-import NotionRenderer from 'lib/components/notion'
+import NotionRenderer from 'components/notion-renderer'
 
 export async function generateStaticParams() {
   return posts
