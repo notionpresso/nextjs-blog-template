@@ -1,5 +1,5 @@
 import post1 from '../notion-data/126ce18c-fd83-8023-9ad1-d0e1809b21c3.json'
-import post2 from '../notion-data/126ce18c-fd83-80ab-9d97-d350670aeb53.json'
+import post2 from '../notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02.json'
 
 const posts = [
   {
@@ -11,11 +11,11 @@ const posts = [
     image: undefined
   },
   {
-    title: "How Far Can You Go with Storybook?",
-    slug: "best-practices-for-storybook",
+    title: "Naver Search Bar UX: Analysis and Implementation Guide",
+    slug: "naver-search-bar-ux",
     content: post2,
-    date: "2023-10-22",
-    description: "Explore how full-page development with Storybook enhances frontend development. Discover the benefits of streamlined development through mock APIs, improved collaboration via quick feedback, and simplified A/B testing through easy comparison of design iterations.",
+    date: "2023-10-23",
+    description: "Explore the UX analysis of Naver's search bar and strategies for replicating its features. The post examines the UX triggers, selection of search results, and the refreshing of result lists. It also compares coding approaches for implementing search bar functionalities, aiming for a concise and effective execution.",
     image: undefined
   }
 ] as Post[];
