@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 ::selection {
   background-color: #47a3f3;
@@ -23,10 +25,6 @@
     --sh-identifier: white;
     --sh-keyword: #f47067;
     --sh-string: #0fa295;
-  }
-
-  html {
-    color-scheme: dark;
   }
 }
 

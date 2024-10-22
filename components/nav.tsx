@@ -34,6 +34,8 @@ export function Navbar() {
                 </Link>
               )
             })}
+          </div>
+          <div className='ml-auto'>
             <ThemeToggle />
           </div>
         </nav>
