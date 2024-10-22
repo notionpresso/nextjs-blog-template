@@ -4,7 +4,7 @@ import posts from 'content/posts'
 import NotionRenderer from 'components/notion-renderer'
 
 export async function generateStaticParams() {
-  return posts
+  return posts.map((post) => ({ slug: post.slug }))
 }
 
 export function generateMetadata({ params }) {
@@ -46,8 +46,9 @@ export function generateMetadata({ params }) {
   }
 }
 
-export default function Blog({ params }) {
-  let post = posts.find((post) => post.slug === params.slug)
+export default async function Blog({ params }) {
+  const { slug } = await params
+  let post = posts.find((post) => post.slug === slug)
   if (!post) {
     notFound()
   }
