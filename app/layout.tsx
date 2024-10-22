@@ -2,19 +2,19 @@ import './global.css'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Navbar } from './components/nav'
-import { Analytics } from '@vercel/analytics/react'
+import { Navbar } from 'components/nav'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import Footer from './components/footer'
+import Footer from 'components/footer'
 import { baseUrl } from './sitemap'
+import { ThemeProvider } from 'next-themes'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Notionpresso Portfolio Starter',
+    template: '%s | Notionpresso Portfolio Starter',
   },
-  description: 'This is my portfolio.',
+  description: 'This is my my portfloio',
   openGraph: {
     title: 'My Portfolio',
     description: 'This is my portfolio.',
@@ -46,20 +46,21 @@ export default function RootLayout({
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
         GeistSans.variable,
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
-          <Navbar />
-          {children}
-          <Footer />
-          <Analytics />
-          <SpeedInsights />
-        </main>
+      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto text-black bg-white dark:text-white dark:bg-black">
+        <ThemeProvider attribute='class' defaultTheme='light' >
+          <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+            <Navbar />
+            {children}
+            <Footer />
+            <SpeedInsights />
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   )

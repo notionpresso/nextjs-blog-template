@@ -1,4 +1,6 @@
+'use client'
 import Link from 'next/link'
+import ThemeToggle from './theme'
 
 const navItems = {
   '/': {
@@ -7,8 +9,8 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+  'https://github.com/notionpresso': {
+    name: 'github',
   },
 }
 
@@ -32,6 +34,9 @@ export function Navbar() {
                 </Link>
               )
             })}
+          </div>
+          <div className='ml-auto'>
+            <ThemeToggle />
           </div>
         </nav>
       </div>

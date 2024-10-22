@@ -1,0 +1,4641 @@
+{
+  "object": "page",
+  "id": "127ce18c-fd83-805c-bebd-d6772e18bf02",
+  "created_time": "2024-10-22T13:13:00.000Z",
+  "last_edited_time": "2024-10-22T13:16:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "page_id",
+    "page_id": "11ece18c-fd83-8028-a76a-e550a807c762"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "템플릿 포스팅 예시 (1)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "템플릿 포스팅 예시 (1)",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/1-127ce18cfd83805cbebdd6772e18bf02",
+  "public_url": null,
+  "request_id": "7f2a3e3a-a58b-4794-84c5-a6cd264ee1d4",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8033-ad59-d479ccea9934",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Intro",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Intro",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8096-b250-edc62ebcbe80",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Today, we will analyze the UX of search bar components from a developer's perspective. With the knowledge from this post, anyone should be able to create a search bar component.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Today, we will analyze the UX of search bar components from a developer's perspective. With the knowledge from this post, anyone should be able to create a search bar component.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8035-a6b4-fe506ee4e0e2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's Look at Naver's Search Bar",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's Look at Naver's Search Bar",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ec-9f34-d8ff24335963",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "I tried typing directly into the search bar on Naver.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "I tried typing directly into the search bar on Naver.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8034-b9cd-eebc7f1902d0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02/image_1.gif",
+          "expiry_time": "2024-10-22T14:24:17.364Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8073-8317-f5e36ef5827f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8058-be0a-e9db4c8f6ccd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "As you can see, when you search, it displays matching search results below. The list that appears at the bottom is limited to 10 items. It's also characteristic that the matching letters in the search are highlighted in blue.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "As you can see, when you search, it displays matching search results below. The list that appears at the bottom is limited to 10 items. It's also characteristic that the matching letters in the search are highlighted in blue.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ee-985c-fa96b8827fae",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The search bar has the following UX:",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The search bar has the following UX:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8087-8f68-f42fde7e6ec3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Typing shows a list of search results at the bottom.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Typing shows a list of search results at the bottom.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80d4-bdbf-ed28d036bf91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The matching part of the search word is highlighted.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The matching part of the search word is highlighted.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8015-843b-ed3a313a20a2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The search result window has no scroll and is limited in number.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The search result window has no scroll and is limited in number.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8047-b5c4-dc6f7b18b7b6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's analyze in more detail.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's analyze in more detail.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80f3-8b1a-c883d9413a27",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Naver Search Bar UX Analysis",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Naver Search Bar UX Analysis",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80aa-818f-ebb1114db238",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The UX of the search bar can be divided into 5 actions:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The UX of the search bar can be divided into 5 actions:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8028-8d73-f47cf5bae427",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Displaying the search results window",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Displaying the search results window",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80f6-81e3-f7a2ff7ec2a4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Turning off the search results window",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Turning off the search results window",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80cd-a042-f8ec91ff3c36",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Selecting a search result",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Selecting a search result",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80de-9a9b-e998114790ac",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Searching",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Searching",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80f7-bdb0-e5f024360377",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Refreshing the search result list",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Refreshing the search result list",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-806f-85ff-e10a4c30df4f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Understanding when these 5 actions occur will give us a detailed insight into the UX of the search bar.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Understanding when these 5 actions occur will give us a detailed insight into the UX of the search bar.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8044-aaa3-ce4f16336852",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When the Search Results Window Appears",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When the Search Results Window Appears",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80eb-ad4f-e5c837b4b434",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When does the search results window appear? It seems obvious that it would appear when you click on the search bar or start typing. Are there any other triggers?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When does the search results window appear? It seems obvious that it would appear when you click on the search bar or start typing. Are there any other triggers?",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8065-a163-fcca7de519b2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. When Typing Begins",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. When Typing Begins",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ef-8ef7-eaf007067e46",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The search results are provided as soon as the user starts inputting.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The search results are provided as soon as the user starts inputting.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-803e-abe0-d4d66263dd3b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. When Clicking on the Search Bar with the Mouse",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. When Clicking on the Search Bar with the Mouse",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8045-91b7-fb6153c67046",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If there's a search term and the search results are turned off, clicking on the search bar with the mouse will turn it back on.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If there's a search term and the search results are turned off, clicking on the search bar with the mouse will turn it back on.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-804a-b2e2-e1a10ab04d16",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. When Pressing the Down Arrow Key on the Keyboard",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. When Pressing the Down Arrow Key on the Keyboard",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-802f-8e1a-ec1968ce702b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If there's a search term and the search results are turned off, pressing the down arrow key on the keyboard will turn it back on.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If there's a search term and the search results are turned off, pressing the down arrow key on the keyboard will turn it back on.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80c1-a854-e8c44799794c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Surprisingly, the search results do not turn on when the search bar gains focus.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Surprisingly, the search results do not turn on when the search bar gains focus.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-805a-9cca-d8056844b999",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When the Search Results Window Turns Off",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When the Search Results Window Turns Off",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80a5-aa7b-c0cae1887bd0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Then, when does the search results window turn off? There are several moments when this can happen:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Then, when does the search results window turn off? There are several moments when this can happen:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8098-90b6-da05bbb919ca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "When All Content of the Search Term is Deleted",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When All Content of the Search Term is Deleted",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80fc-a3ed-ef4540a737a0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02/image_2.gif",
+          "expiry_time": "2024-10-22T14:24:17.355Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-809b-963e-f39058394b8a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "As you can see, when all content of the search term disappears, the search results window turns off.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "As you can see, when all content of the search term disappears, the search results window turns off.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80c0-8ab0-f833dc1e9238",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. When Clicking on the Search Bar with the Mouse",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. When Clicking on the Search Bar with the Mouse",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-807a-99f9-ed47fa388e1c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If the search results are on, clicking on the search bar will turn it off.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If the search results are on, clicking on the search bar will turn it off.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80c4-a696-c27dfeaa4350",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. When Clicking Outside with the Mouse",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. When Clicking Outside with the Mouse",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80da-8a20-d878e2b32b1e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clicking on anything outside of the search results and the search bar will turn it off.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clicking on anything outside of the search results and the search bar will turn it off.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80e8-a257-df424911d45a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4. When Pressing the Enter Key",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4. When Pressing the Enter Key",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80a5-b69a-f3e56a3661bf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Performing a search will also turn off the search window (though technically, it closes as the page navigates).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Performing a search will also turn off the search window (though technically, it closes as the page navigates).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80f5-81b7-e004d508edfb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "5. When Clicking on a Search Result Item",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "5. When Clicking on a Search Result Item",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8054-b11d-d7842f279f17",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Similar to pressing Enter, clicking on a search result item will perform the search and close the search window.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Similar to pressing Enter, clicking on a search result item will perform the search and close the search window.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8056-b527-f506c1834246",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "6. When Pressing the Up Arrow Key",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "6. When Pressing the Up Arrow Key",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8031-a54f-dbe415c3c468",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Under two conditions: if the search results are on and no search result is selected or the first search result is selected, pressing the up arrow key will turn it off.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Under two conditions: if the search results are on and no search result is selected or the first search result is selected, pressing the up arrow key will turn it off.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-802b-b9e7-cc7ff02761dc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "7. When Pressing the Esc Key",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "7. When Pressing the Esc Key",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80d1-b708-f1dafab9c538",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pressing Esc deletes the search term and for the same reason as number 1, turns off the search results.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pressing Esc deletes the search term and for the same reason as number 1, turns off the search results.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8074-8996-f596346f3b16",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "8. When Pressing Shift + Tab",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "8. When Pressing Shift + Tab",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8094-8db7-fc89f9b80d85",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If the first search result item is selected and Shift + Tab is pressed, the search results turn off (but if no item is selected, the focus simply moves without turning off the results).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If the first search result item is selected and Shift + Tab is pressed, the search results turn off (but if no item is selected, the focus simply moves without turning off the results).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8060-a618-e572642a1ae3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Interestingly, simply losing focus does not turn off the search results.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Interestingly, simply losing focus does not turn off the search results.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80cd-8726-c9c9aeb97176",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Selecting a Search Result",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Selecting a Search Result",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80c8-a802-e8eb1e98fd95",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Users can select search results using keyboard actions.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Users can select search results using keyboard actions.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8042-9e79-d3dc0771f0d3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80fe-9f1e-d7b428563d7a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02/image_3.gif",
+          "expiry_time": "2024-10-22T14:24:17.727Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-801b-b795-f386b820253e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Although not clearly visible on the screen, the selected search result is highlighted with a light grey background.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Although not clearly visible on the screen, the selected search result is highlighted with a light grey background.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8042-9093-c90ae8567242",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Selecting a search result changes the content of the search bar as well. Now, let's see how users can select a search result.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Selecting a search result changes the content of the search bar as well. Now, let's see how users can select a search result.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ff-b9c6-c280b1709b42",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. When Pressing the Down Arrow Key",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. When Pressing the Down Arrow Key",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8097-bb0a-e37c88262a00",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If no item is selected, the first item will be selected.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If no item is selected, the first item will be selected.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8020-bf52-c40460ee488a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If a previous item was selected, the next item will be selected.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If a previous item was selected, the next item will be selected.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8042-86d7-f9e9523f2a99",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If the last item is reached, it will cycle back to the first item.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If the last item is reached, it will cycle back to the first item.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80d5-b2e3-ffe66927fbb6",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. When Pressing the Up Arrow Key",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. When Pressing the Up Arrow Key",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-807b-b31c-ce29dc45decf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If a previous item was selected and it's not the first item, the item above it will be selected.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If a previous item was selected and it's not the first item, the item above it will be selected.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80b5-acac-e73362f8411e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If no previous item was selected or the first item was selected, the search results window will turn off.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If no previous item was selected or the first item was selected, the search results window will turn off.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-803b-942b-fd09c1b8716b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. When Pressing the Tab Key",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. When Pressing the Tab Key",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ef-85d8-f25f43343cb3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If no item is selected, the first item will be selected.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If no item is selected, the first item will be selected.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80cb-9d43-c3e85c26cd5f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If a previous item was selected, the next item will be selected.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If a previous item was selected, the next item will be selected.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8097-828f-d0f975a6f39b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Once the last item is reached, the search icon gains focus.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Once the last item is reached, the search icon gains focus.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8015-be25-fa5a5a2b4b2d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "4. When Pressing Shift + Tab",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "4. When Pressing Shift + Tab",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80e2-ae64-eb2b52ff66a2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If a previous item was selected and it's not the first item, the item above it will be selected.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If a previous item was selected and it's not the first item, the item above it will be selected.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-808d-865a-ef7f28c15c1d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Otherwise, the search results turn off or focus moves elsewhere.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Otherwise, the search results turn off or focus moves elsewhere.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80b9-93db-e63be0cdef87",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "There's a subtle difference between using the Tab key and the down arrow key. When navigating with the Tab key, it feels as though the focus moves to the search result items, but in reality, the focus does not move. The fact that the caret remains visible in the search bar is a giveaway. The moment when the focus truly moves is observable when the search icon gains focus after pressing Tab.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "There's a subtle difference between using the Tab key and the down arrow key. When navigating with the Tab key, it feels as though the focus moves to the search result items, but in reality, the focus does not move. The fact that the caret remains visible in the search bar is a giveaway. The moment when the focus truly moves is observable when the search icon gains focus after pressing Tab.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ca-93c4-d977fd676c25",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02/image_4.gif",
+          "expiry_time": "2024-10-22T14:24:17.908Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8060-9374-cd3cbeb4a2e8",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "5. Other Actions",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "5. Other Actions",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8062-8223-cce4178bee67",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Each time a search item is selected, the caret in the search bar moves to the end of the word.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Each time a search item is selected, the caret in the search bar moves to the end of the word.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8084-a141-c84357122a91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "bulleted_list_item",
+      "bulleted_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If the search results window is turned off and then back on, the previously selected search item is reset.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If the search results window is turned off and then back on, the previously selected search item is reset.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8050-b494-eb803129a01a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Searching",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Searching",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-800d-aa75-e03975eb8889",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Searching involves using the search term to fetch data on the page. In Naver's case, the search results window closes and the focus is lost as the page navigates.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Searching involves using the search term to fetch data on the page. In Naver's case, the search results window closes and the focus is lost as the page navigates.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-802e-a9d2-ffa754181e58",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02/image_5.gif",
+          "expiry_time": "2024-10-22T14:24:17.686Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8087-9203-d7d338922b6b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. When Pressing Enter",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. When Pressing Enter",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-801b-a200-e67164590d05",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Pressing Enter executes the search.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Pressing Enter executes the search.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80a2-893b-dd6cbf83d864",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. When Clicking on a Search Result Item with the Mouse",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. When Clicking on a Search Result Item with the Mouse",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80f9-90bf-cd6466d67b2d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clicking with the mouse executes the search.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clicking with the mouse executes the search.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8004-ad99-d6f41f40516d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "3. When Clicking on the Search Icon",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "3. When Clicking on the Search Icon",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ef-8d35-cf85a798797e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clicking on the search icon executes the search.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clicking on the search icon executes the search.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80a1-a82c-fd28a30b6015",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Refreshing the Search Results List",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Refreshing the Search Results List",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80b1-ad71-ff85ea3e468f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When does the search results list refresh? It seems it's not just when the search term changes because the list doesn't refresh when a search item is selected, which also changes the search term.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When does the search results list refresh? It seems it's not just when the search term changes because the list doesn't refresh when a search item is selected, which also changes the search term.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-803e-a5c8-ddbf71c4313c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "1. When the User Starts Inputting",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "1. When the User Starts Inputting",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80bb-83f1-c401f61e4942",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The search results refresh as soon as the user begins inputting.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The search results refresh as soon as the user begins inputting.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-807a-b217-c862fcb454e4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "2. When Clicking on the Search Bar",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "2. When Clicking on the Search Bar",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8031-a688-c7f6e32d28a0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If the user changes the search term with the keyboard, turns off the search results, and then clicks on the search bar to turn it back on, the list refreshes with the updated search term.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If the user changes the search term with the keyboard, turns off the search results, and then clicks on the search bar to turn it back on, the list refreshes with the updated search term.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80a9-9d42-c87d4f58efa1",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02/image_6.gif",
+          "expiry_time": "2024-10-22T14:24:17.917Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8047-854d-dd7db6fb5f08",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Let's Implement It Ourselves",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Let's Implement It Ourselves",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8082-a826-ca689dabf315",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Following the analysis of the functionalities, I attempted to implement the code. As seen, pressing the up arrow key resulted in different outcomes depending on the condition. I thought it might be more readable to write the code focused on functionalities rather than trigger events.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Following the analysis of the functionalities, I attempted to implement the code. As seen, pressing the up arrow key resulted in different outcomes depending on the condition. I thought it might be more readable to write the code focused on functionalities rather than trigger events.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8086-bf9b-f481c3543ed5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Event-Triggered Approach",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Event-Triggered Approach",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-806c-82da-caf558be4a6e",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "<script>\n\tconst handleKeyDown = (e: KeyboardEvent) => {\n\t  if(no selected item and up arrow key pressed) {\n\t    turnOffSearchBar()\n\t\t\treturn\n\t  }\n\t\n\t\tif(selected item exists and up arrow key pressed) {\n\t\t\tselectPreviousItem()\n\t\t\treturn \n\t  }\n\t\t\n\t\t...\n\t}\n\t\n\tconst handleClickInput = () => {\n\t\tif(search bar is on) {\n\t\t\tturn it off\n\t\t\treturn\n\t  }\n\t  \n\t if(search bar is off) {\n\t\trefreshSearchResults()\n\t\tturn it on\n\t\treturn\n\t }\n\t}\n</script>\n\n<input on:keydown={handleKeyDown} on:click={handleClickInput} />\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "<script>\n\tconst handleKeyDown = (e: KeyboardEvent) => {\n\t  if(no selected item and up arrow key pressed) {\n\t    turnOffSearchBar()\n\t\t\treturn\n\t  }\n\t\n\t\tif(selected item exists and up arrow key pressed) {\n\t\t\tselectPreviousItem()\n\t\t\treturn \n\t  }\n\t\t\n\t\t...\n\t}\n\t\n\tconst handleClickInput = () => {\n\t\tif(search bar is on) {\n\t\t\tturn it off\n\t\t\treturn\n\t  }\n\t  \n\t if(search bar is off) {\n\t\trefreshSearchResults()\n\t\tturn it on\n\t\treturn\n\t }\n\t}\n</script>\n\n<input on:keydown={handleKeyDown} on:click={handleClickInput} />\n",
+            "href": null
+          }
+        ],
+        "language": "html"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80fc-b662-fb14a3f656fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Improved: Functionality-Centric Code",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Improved: Functionality-Centric Code",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8092-8ecc-c23ae567bdbd",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "const openMenuHandlers = {\n\thandleInputChange() {\n\t  turn it on\n  },\n\thandlePressArrowDown(e) {\n\t\tif(off and down arrow key pressed) {\n\t\t\tturn it on\n    }\n  }\n   \n\t...\n\n}\n\nconst closeMenuHandlers = {\n\thandlePressArrowup(e) {\n\t\tif(on and no selected item) {\n\t\t\tturn it off\n    }\n  }\n\n\t...\n\n}\n\nconst handleKeyDown = (e) => {\n const listeners = [\n\t openMenuHandlers.handlePressArrowDown,\n\t closeMenuHandlers.handlePressArrowUp,\n\t ...\n ]\n\n\tlistenres.forEach(callback => callback(e))\n\n}\n...\n\n<input \n\ton:keydown={handleKeyDown}\n\t...\n/>\n",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "const openMenuHandlers = {\n\thandleInputChange() {\n\t  turn it on\n  },\n\thandlePressArrowDown(e) {\n\t\tif(off and down arrow key pressed) {\n\t\t\tturn it on\n    }\n  }\n   \n\t...\n\n}\n\nconst closeMenuHandlers = {\n\thandlePressArrowup(e) {\n\t\tif(on and no selected item) {\n\t\t\tturn it off\n    }\n  }\n\n\t...\n\n}\n\nconst handleKeyDown = (e) => {\n const listeners = [\n\t openMenuHandlers.handlePressArrowDown,\n\t closeMenuHandlers.handlePressArrowUp,\n\t ...\n ]\n\n\tlistenres.forEach(callback => callback(e))\n\n}\n...\n\n<input \n\ton:keydown={handleKeyDown}\n\t...\n/>\n",
+            "href": null
+          }
+        ],
+        "language": "typescript"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-809c-ade1-e0505d226638",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "handleKeyDown",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "handleKeyDown",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", what was previously handled with branching is now managed through listeners. This approach allows for writing code that's centered around functionalities, making it easier to address problems or add UX flows later on.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", what was previously handled with branching is now managed through listeners. This approach allows for writing code that's centered around functionalities, making it easier to address problems or add UX flows later on.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-807b-8f54-cb6a016908ce",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Using ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Using ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "listeners.forEach",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "listeners.forEach",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " instead of ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " instead of ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "listeners.some",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "listeners.some",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and having the handler return a boolean could provide even more flexibility.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and having the handler return a boolean could provide even more flexibility.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80f0-ae20-e42c55b58dd9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_1",
+      "heading_1": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Concluding Thoughts",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Concluding Thoughts",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8015-bf97-ec079af6abca",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this post, we explored the UX of search bars. As observed, Naver's search bar contains a multitude of triggers. The search bar component implemented based on our functional analysis concludes this discussion.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this post, we explored the UX of search bars. As observed, Naver's search bar contains a multitude of triggers. The search bar component implemented based on our functional analysis concludes this discussion.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80c9-b847-ea0351bb0274",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/127ce18c-fd83-805c-bebd-d6772e18bf02/image_7.gif",
+          "expiry_time": "2024-10-22T14:24:18.227Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8099-b321-d82c1bff9e17",
+      "parent": {
+        "type": "page_id",
+        "page_id": "127ce18c-fd83-805c-bebd-d6772e18bf02"
+      },
+      "created_time": "2024-10-22T13:16:00.000Z",
+      "last_edited_time": "2024-10-22T13:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

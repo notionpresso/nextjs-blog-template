@@ -1,17 +1,34 @@
-import { BlogPosts } from 'app/components/posts'
+import Image from 'next/image'
+import { BlogPosts } from 'components/posts'
 
 export default function Page() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
+      <div className="flex items-center mb-8">
+        <Image
+          src="/profile.png"
+          alt="profile image"
+          width={100}
+          height={100}
+          className="rounded-full mr-4"
+        />
+        <h1 className="text-2xl font-semibold tracking-tighter">
+          My Portfolio
+        </h1>
+      </div>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Hello! This blog is created using `}
+        <a 
+          href="https://github.com/notionpresso" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 hover:text-blue-800 underline font-medium transition duration-300 ease-in-out"
+        >
+          Notionpresso
+        </a>
+        {`. I'm efficiently managing content by utilizing Notion as a CMS. 
+        I'll be sharing stories about development, technology, and daily life. 
+        Stay tuned and thanks for your interest!`}
       </p>
       <div className="my-8">
         <BlogPosts />
