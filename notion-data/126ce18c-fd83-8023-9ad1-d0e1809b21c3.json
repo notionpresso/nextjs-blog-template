@@ -1,0 +1,2078 @@
+{
+  "object": "page",
+  "id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3",
+  "created_time": "2024-10-21T22:53:00.000Z",
+  "last_edited_time": "2024-10-22T13:17:00.000Z",
+  "created_by": {
+    "object": "user",
+    "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+  },
+  "last_edited_by": {
+    "object": "user",
+    "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+  },
+  "cover": null,
+  "icon": null,
+  "parent": {
+    "type": "page_id",
+    "page_id": "11ece18c-fd83-8028-a76a-e550a807c762"
+  },
+  "archived": false,
+  "in_trash": false,
+  "properties": {
+    "title": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "템플릿 포스팅 예시",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "템플릿 포스팅 예시",
+          "href": null
+        }
+      ]
+    }
+  },
+  "url": "https://www.notion.so/126ce18cfd8380239ad1d0e1809b21c3",
+  "public_url": null,
+  "request_id": "063d6509-47ea-487a-a58f-506c23c4c48a",
+  "blocks": [
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8028-b990-dfdafc038839",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "callout",
+      "callout": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Here, \"API\" refers to a Resource API that communicates directly with a database.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Here, \"API\" refers to a Resource API that communicates directly with a database.",
+            "href": null
+          }
+        ],
+        "icon": {
+          "type": "emoji",
+          "emoji": "😃"
+        },
+        "color": "gray_background"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-808d-b331-ecc204ea8df7",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Introduction",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Introduction",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8086-81dd-faba6944456c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "As we developed our blog platform, the introduction of the BFF pattern allowed us to flexibly address business logic. However, we hadn't thoroughly considered the changes BFF would bring to API design. The question from a team member about what should be handled by the BFF and what should be offered by the API together made me realize the need for clear rules.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "As we developed our blog platform, the introduction of the BFF pattern allowed us to flexibly address business logic. However, we hadn't thoroughly considered the changes BFF would bring to API design. The question from a team member about what should be handled by the BFF and what should be offered by the API together made me realize the need for clear rules.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80c6-b740-f7ac11a70801",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "After introducing BFF, I believe that API endpoints must shift from being domain-centric to data-centric. This article will briefly introduce BFF and DDD before suggesting how API endpoints should be designed in the context of the BFF pattern.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "After introducing BFF, I believe that API endpoints must shift from being domain-centric to data-centric. This article will briefly introduce BFF and DDD before suggesting how API endpoints should be designed in the context of the BFF pattern.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-808a-944a-ce40ef743251",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What is BFF?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What is BFF?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8030-9a82-f7d2cb854397",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "BFF (Backends For Frontends) emerged to provide backend services optimized for specific client requirements (web, mobile, etc.). In a microservices architecture, BFF can create new response values by combining responses from multiple APIs or by merging responses from various endpoints of a single API. This customizes data processing and optimizes network use for each client. Clients no longer communicate directly with the API but through a single instance of BFF. The API provides all information about a resource, while the BFF decides what information to expose through each endpoint.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "BFF (Backends For Frontends) emerged to provide backend services optimized for specific client requirements (web, mobile, etc.). In a microservices architecture, BFF can create new response values by combining responses from multiple APIs or by merging responses from various endpoints of a single API. This customizes data processing and optimizes network use for each client. Clients no longer communicate directly with the API but through a single instance of BFF. The API provides all information about a resource, while the BFF decides what information to expose through each endpoint.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ae-8418-ef990825d66b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-8023-9ad1-d0e1809b21c3/image_1.svg",
+          "expiry_time": "2024-10-22T14:18:43.887Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80fd-89b1-c92e32780416",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What is DDD?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What is DDD?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80be-bca9-fc4e04ca3d4f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Domain-Driven Design (DDD) is a methodology that focuses on designing complex systems around the core concepts and rules of the business. This closely connects the development process with business needs, creating software that is flexible and easy to maintain. For instance, when implementing a 'Post' creation feature in a blog platform using Spring Boot and Kotlin, you can design a service layer to handle CRUD operations centered around the ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Domain-Driven Design (DDD) is a methodology that focuses on designing complex systems around the core concepts and rules of the business. This closely connects the development process with business needs, creating software that is flexible and easy to maintain. For instance, when implementing a 'Post' creation feature in a blog platform using Spring Boot and Kotlin, you can design a service layer to handle CRUD operations centered around the ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Blog",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Blog",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " domain model. This approach, informed by DDD, clearly implements business logic and creates a structure reusable across various interfaces (web, mobile).",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " domain model. This approach, informed by DDD, clearly implements business logic and creates a structure reusable across various interfaces (web, mobile).",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8086-bd78-c977372e43de",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "code",
+      "code": {
+        "caption": [],
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "import javax.persistence.*\nimport java.time.LocalDateTime\n\n@Entity\nclass Blog(\n    @Id @GeneratedValue(strategy = GenerationType.AUTO)\n    val id: Long? = null,\n\n    var title: String,\n\n    @OneToMany(mappedBy = \"blog\", cascade = arrayOf(CascadeType.ALL), fetch = FetchType.LAZY)\n    val posts: MutableList<Post> = mutableListOf()\n)\n\n@Entity\nclass Post(\n    @Id @GeneratedValue(strategy = GenerationType.AUTO)\n    val id: Long? = null,\n\n    var title: String,\n    var content: String,\n    var createdAt: LocalDateTime = LocalDateTime.now(),\n\n    @ManyToOne(fetch = FetchType.LAZY)\n    @JoinColumn(name = \"blog_id\")\n    val blog: Blog\n)\n\n@Repository\ninterface BlogRepository : JpaRepository<Blog, Long>\n\n@Repository\ninterface PostRepository : JpaRepository<Post, Long>\n\n@Service\nclass BlogService(\n    val blogRepository: BlogRepository,\n    val postRepository: PostRepository\n) {\n    fun addPostToBlog(blogId: Long, post: Post): Post {\n        val blog = blogRepository.findById(blogId).orElseThrow { Exception(\"Blog not found\") }\n        post.blog = blog\n        blog.posts.add(post)\n        postRepository.save(post)\n        return post\n    }\n}",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "import javax.persistence.*\nimport java.time.LocalDateTime\n\n@Entity\nclass Blog(\n    @Id @GeneratedValue(strategy = GenerationType.AUTO)\n    val id: Long? = null,\n\n    var title: String,\n\n    @OneToMany(mappedBy = \"blog\", cascade = arrayOf(CascadeType.ALL), fetch = FetchType.LAZY)\n    val posts: MutableList<Post> = mutableListOf()\n)\n\n@Entity\nclass Post(\n    @Id @GeneratedValue(strategy = GenerationType.AUTO)\n    val id: Long? = null,\n\n    var title: String,\n    var content: String,\n    var createdAt: LocalDateTime = LocalDateTime.now(),\n\n    @ManyToOne(fetch = FetchType.LAZY)\n    @JoinColumn(name = \"blog_id\")\n    val blog: Blog\n)\n\n@Repository\ninterface BlogRepository : JpaRepository<Blog, Long>\n\n@Repository\ninterface PostRepository : JpaRepository<Post, Long>\n\n@Service\nclass BlogService(\n    val blogRepository: BlogRepository,\n    val postRepository: PostRepository\n) {\n    fun addPostToBlog(blogId: Long, post: Post): Post {\n        val blog = blogRepository.findById(blogId).orElseThrow { Exception(\"Blog not found\") }\n        post.blog = blog\n        blog.posts.add(post)\n        postRepository.save(post)\n        return post\n    }\n}",
+            "href": null
+          }
+        ],
+        "language": "kotlin"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-808a-a4fd-c6655c1afcbc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Domain-Centric API",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Domain-Centric API",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80b1-8bcd-d8761b528e80",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Domain-centric API endpoint design focuses on resources related to business logic, often adhering to RESTful principles. For example, an endpoint to retrieve all ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Domain-centric API endpoint design focuses on resources related to business logic, often adhering to RESTful principles. For example, an endpoint to retrieve all ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Posts",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Posts",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for a specific ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " for a specific ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Blog",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Blog",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " might be structured as ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " might be structured as ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GET /blog/{blogId}/post",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "GET /blog/{blogId}/post",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", revealing the parent-child relationship between Blog and Post. Conversely, a more generic endpoint to view posts across blogs would be ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", revealing the parent-child relationship between Blog and Post. Conversely, a more generic endpoint to view posts across blogs would be ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GET /post?blog_id={blogId}",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "GET /post?blog_id={blogId}",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", offering a flexible view of posts filtered by blog ID.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", offering a flexible view of posts filtered by blog ID.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ad-8b22-d62b58a636f2",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How Should API Change After Introducing BFF?",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How Should API Change After Introducing BFF?",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-806f-a4df-ddc0bb6709cc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Post-BFF, API design should transition from domain-centric to data-centric. Domain-centric APIs can increase duplicate code in the process of redesigning for BFF and limit the freedom of BFF to define domains. Just as APIs mediate between the database and the user, BFF mediates between the API and the client, simplifying direct data provision roles.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Post-BFF, API design should transition from domain-centric to data-centric. Domain-centric APIs can increase duplicate code in the process of redesigning for BFF and limit the freedom of BFF to define domains. Just as APIs mediate between the database and the user, BFF mediates between the API and the client, simplifying direct data provision roles.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8085-baae-eec6ade53b73",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_3",
+      "heading_3": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Example",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Example",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8018-86a0-f1dca211c630",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Using BFF in a blog platform, let's consider the listing of posting information. BFF redefines the Post domain by combining Post (title, thumbnail, summary) and Profile (blogger image, blogger name) from the API.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Using BFF in a blog platform, let's consider the listing of posting information. BFF redefines the Post domain by combining Post (title, thumbnail, summary) and Profile (blogger image, blogger name) from the API.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80a6-8abf-ffe014e6f68c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "[sm]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "[sm]",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-8023-9ad1-d0e1809b21c3/image_2.png",
+          "expiry_time": "2024-10-22T14:18:43.897Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-808c-b25c-edb493f99e71",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "BFF combines information by requesting ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "BFF combines information by requesting ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GET /post",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "GET /post",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for a list of posts and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " for a list of posts and ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "GET /profile?post_id={id1,id2,id3 …}",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "GET /profile?post_id={id1,id2,id3 …}",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " based on post IDs to fetch profile information, thereby providing a combined response.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " based on post IDs to fetch profile information, thereby providing a combined response.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80c9-a64a-df1e1ac7ccc4",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [
+          {
+            "type": "text",
+            "text": {
+              "content": "[sm]",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "[sm]",
+            "href": null
+          }
+        ],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-8023-9ad1-d0e1809b21c3/image_3.png",
+          "expiry_time": "2024-10-22T14:18:43.887Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8068-82ec-cee5aa98df2b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "divider",
+      "divider": {},
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-801a-883c-ffb845772be0",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Conclusion: Principles for Data-Centric API Endpoint Design",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Conclusion: Principles for Data-Centric API Endpoint Design",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8050-9bbf-cb28296fdb1b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In the BFF pattern, APIs must delegate domain-centric thinking to the BFF, focusing instead on a data-centric approach. Here are suggested rules for designing API endpoints:",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In the BFF pattern, APIs must delegate domain-centric thinking to the BFF, focusing instead on a data-centric approach. Here are suggested rules for designing API endpoints:",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80eb-8133-dac801d1cbaf",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Each endpoint should represent a single resource.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Each endpoint should represent a single resource.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "2bba6f08-6c3f-4b71-9d0d-2f41c5934e82",
+          "parent": {
+            "type": "block_id",
+            "block_id": "127ce18c-fd83-80eb-8133-dac801d1cbaf"
+          },
+          "created_time": "2024-10-22T13:17:00.000Z",
+          "last_edited_time": "2024-10-22T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Example: ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Example: ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "GET /{resource_name}",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "GET /{resource_name}",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "a268ec84-26af-4ba4-a250-ec5da87ef3da",
+          "parent": {
+            "type": "block_id",
+            "block_id": "127ce18c-fd83-80eb-8133-dac801d1cbaf"
+          },
+          "created_time": "2024-10-22T13:17:00.000Z",
+          "last_edited_time": "2024-10-22T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Avoid representing parent-child relationships between resources. Only specify the name of the resource being requested at the top level.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Avoid representing parent-child relationships between resources. Only specify the name of the resource being requested at the top level.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-800a-b1fb-fa21dfaaa7fc",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Think from a resource-centric perspective.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Think from a resource-centric perspective.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "c838adee-4bc6-4e44-ae4d-c776f10c32db",
+          "parent": {
+            "type": "block_id",
+            "block_id": "127ce18c-fd83-800a-b1fb-fa21dfaaa7fc"
+          },
+          "created_time": "2024-10-22T13:17:00.000Z",
+          "last_edited_time": "2024-10-22T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "A blog entity can have various states, such as being ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "A blog entity can have various states, such as being ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "blocked",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "blocked",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " if it's reported or ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " if it's reported or ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "deleted",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "deleted",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " if the user removes it themselves. Endpoints should transparently create or modify resource information as it is.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " if the user removes it themselves. Endpoints should transparently create or modify resource information as it is.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "7c23b762-2ee8-4315-8d73-622e6f62b6e7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "127ce18c-fd83-800a-b1fb-fa21dfaaa7fc"
+          },
+          "created_time": "2024-10-22T13:17:00.000Z",
+          "last_edited_time": "2024-10-22T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "For instance, instead of using ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "For instance, instead of using ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "DELETE /blog/{blog_id}",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "DELETE /blog/{blog_id}",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " for removing a blog, use ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " for removing a blog, use ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "PATCH (PUT) /blog/{blog_id}",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "PATCH (PUT) /blog/{blog_id}",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " to manage modifications, deletions, and blocks of blog information. BFF can provide more detailed endpoints for deletion.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " to manage modifications, deletions, and blocks of blog information. BFF can provide more detailed endpoints for deletion.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80df-ba65-fbd2a5d4bd43",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Endpoints should be transactional units.",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Endpoints should be transactional units.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "461ffc02-edba-4bde-a358-ce6cda2b1bd7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "127ce18c-fd83-80df-ba65-fbd2a5d4bd43"
+          },
+          "created_time": "2024-10-22T13:17:00.000Z",
+          "last_edited_time": "2024-10-22T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Let's say you're creating a user's post that includes elements like body, slug, description, and title. For search performance reasons, the post's body and other information are stored separately, in ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Let's say you're creating a user's post that includes elements like body, slug, description, and title. For search performance reasons, the post's body and other information are stored separately, in ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "post",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "post",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " and ",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " and ",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": "post_content",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": true,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": true,
+                  "color": "default"
+                },
+                "plain_text": "post_content",
+                "href": null
+              },
+              {
+                "type": "text",
+                "text": {
+                  "content": " tables, respectively.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": " tables, respectively.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        },
+        {
+          "object": "block",
+          "id": "4a4b88ec-e03b-4b2c-9fcb-23ef3113c185",
+          "parent": {
+            "type": "block_id",
+            "block_id": "127ce18c-fd83-80df-ba65-fbd2a5d4bd43"
+          },
+          "created_time": "2024-10-22T13:17:00.000Z",
+          "last_edited_time": "2024-10-22T13:17:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "paragraph",
+          "paragraph": {
+            "rich_text": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "If saving to the post table fails, saving to the post_content must also fail, and vice versa. If the post table data is saved but post_content fails, it breaks data integrity. Thus, post and post_content belong to a single transaction. The API should offer only one endpoint to save or fetch both post and post_content together, not separate endpoints for each action.",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "If saving to the post table fails, saving to the post_content must also fail, and vice versa. If the post table data is saved but post_content fails, it breaks data integrity. Thus, post and post_content belong to a single transaction. The API should offer only one endpoint to save or fetch both post and post_content together, not separate endpoints for each action.",
+                "href": null
+              }
+            ],
+            "color": "default"
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80ef-b5c2-cfc6af69b327",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "heading_2",
+      "heading_2": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Reference",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Reference",
+            "href": null
+          }
+        ],
+        "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-80b8-8a1c-d4810233f472",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "How Kakao Applied BFF",
+              "link": {
+                "url": "https://fe-developers.kakaoent.com/2022/220310-kakaopage-bff/"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "How Kakao Applied BFF",
+            "href": "https://fe-developers.kakaoent.com/2022/220310-kakaopage-bff/"
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-802a-be1f-c230a9bcc858",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Is the REST API Okay as Is? [NAVER]",
+              "link": {
+                "url": "https://www.youtube.com/watch?v=RP_f5dMoHFc"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Is the REST API Okay as Is? [NAVER]",
+            "href": "https://www.youtube.com/watch?v=RP_f5dMoHFc"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " - A summary of a LinkedIn presentation on DDD-centric APIs.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " - A summary of a LinkedIn presentation on DDD-centric APIs.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "127ce18c-fd83-8097-9e05-c633cbe84957",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-8023-9ad1-d0e1809b21c3"
+      },
+      "created_time": "2024-10-22T13:17:00.000Z",
+      "last_edited_time": "2024-10-22T13:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
+        "color": "default"
+      },
+      "blocks": []
+    }
+  ]
+}

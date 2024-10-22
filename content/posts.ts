@@ -1,21 +1,21 @@
-import post1 from '../notion-data/126ce18c-fd83-80ab-9d97-d350670aeb53.json'
+import post1 from '../notion-data/126ce18c-fd83-8023-9ad1-d0e1809b21c3.json'
 import post2 from '../notion-data/126ce18c-fd83-80ab-9d97-d350670aeb53.json'
 
 const posts = [
   {
-    title: "My First Post",
-    slug: "my-first-post",
+    title: "Maximizing the Benefits of BFF Pattern in API Design",
+    slug: "api-design-in-bff",
     content: post1,
-    date: "2021-01-01",
-    description: "This is the description of my first post.",
+    date: "2023-10-22",
+    description: "Exploring the shift from domain-centric to data-centric API endpoints after introducing BFF. This article introduces BFF and DDD concepts, then proposes API endpoint design strategies in the context of the BFF pattern.",
     image: undefined
   },
   {
-    title: "My Second Post",
-    slug: "my-second-post",
+    title: "How Far Can You Go with Storybook?",
+    slug: "best-practices-for-storybook",
     content: post2,
-    date: "2021-01-02",
-    description: "This is the description of my second post.",
+    date: "2023-10-22",
+    description: "Explore how full-page development with Storybook enhances frontend development. Discover the benefits of streamlined development through mock APIs, improved collaboration via quick feedback, and simplified A/B testing through easy comparison of design iterations.",
     image: undefined
   }
 ] as Post[];
