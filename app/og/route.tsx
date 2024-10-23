@@ -1,5 +1,7 @@
 import { ImageResponse } from 'next/og'
 
+export const runtime = 'edge';
+
 export function GET(request: Request) {
   let url = new URL(request.url)
   let title = url.searchParams.get('title') || 'Next.js Portfolio Starter'
