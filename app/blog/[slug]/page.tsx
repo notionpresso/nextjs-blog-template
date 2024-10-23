@@ -3,6 +3,8 @@ import { baseUrl } from 'app/sitemap'
 import posts from 'content/posts'
 import NotionRenderer from 'components/notion-renderer'
 
+export const runtime = 'edge';
+
 export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }))
 }
