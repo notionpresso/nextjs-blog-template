@@ -1,6 +1,6 @@
 import posts from "content/posts"
 
-export const baseUrl = 'https://portfolio-blog-starter.vercel.app'
+export const baseUrl = 'https://nextjs-blog-template.pages.dev'
 
 export async function sitemap() {
   let blogs = posts.map((post) => ({
