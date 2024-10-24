@@ -21,6 +21,14 @@ export const metadata: Metadata = {
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/profile.png',
+        width: 800,
+        height: 600,
+        alt: '프로필 이미지',
+      }
+    ],
   },
   robots: {
     index: true,
@@ -32,6 +40,10 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/profile.png'],
   },
 }
 
