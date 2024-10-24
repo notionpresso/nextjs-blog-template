@@ -9,6 +9,9 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
+  '/guide': {
+    name: 'guide',
+  },
   'https://github.com/notionpresso': {
     name: 'github',
   },
