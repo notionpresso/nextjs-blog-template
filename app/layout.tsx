@@ -45,6 +45,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     images: ['/profile.png'],
   },
+  icons: {
+    icon: '/profile.png',
+    apple: '/profile.png',
+  },
 }
 
 const cx = (...classes) => classes.filter(Boolean).join(' ')
