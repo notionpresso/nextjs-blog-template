@@ -1,8 +1,7 @@
 'use client'
 import { Notion } from "@notionpresso/react";
-import type { Post } from "content/posts";
 
-export default function NotionRenderer({ post }: { post: Post }) {
+export default function NotionRenderer({ post }: { post: { title: string, content: { blocks: any[] }, image?: string } }) {
   return (
     <Notion>
       <Notion.Cover src={post.image} />
