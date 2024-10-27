@@ -2,14 +2,14 @@
   "object": "page",
   "id": "126ce18c-fd83-80a5-8260-d757c56405b2",
   "created_time": "2024-10-21T22:53:00.000Z",
-  "last_edited_time": "2024-10-24T10:43:00.000Z",
+  "last_edited_time": "2024-10-27T03:39:00.000Z",
   "created_by": {
     "object": "user",
     "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
   },
   "last_edited_by": {
     "object": "user",
-    "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+    "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
   },
   "cover": null,
   "icon": null,
@@ -46,7 +46,7 @@
   },
   "url": "https://www.notion.so/126ce18cfd8380a58260d757c56405b2",
   "public_url": null,
-  "request_id": "75afaa51-55b0-4634-a47f-11403fc4cc53",
+  "request_id": "7be08ca4-1da3-49dd-aba2-58854654c731",
   "blocks": [
     {
       "object": "block",
@@ -5746,14 +5746,14 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:44:00.000Z",
-      "last_edited_time": "2024-10-24T09:44:00.000Z",
+      "last_edited_time": "2024-10-27T03:14:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "has_children": false,
       "archived": false,
@@ -5764,7 +5764,7 @@
           {
             "type": "text",
             "text": {
-              "content": "시작하기: 프로젝트 가져오기",
+              "content": "시작하기: 나만의 notion blog Github repo 만들기 ",
               "link": null
             },
             "annotations": {
@@ -5775,11 +5775,584 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "시작하기: 프로젝트 가져오기",
+            "plain_text": "시작하기: 나만의 notion blog Github repo 만들기 ",
             "href": null
           }
         ],
         "is_toggleable": false,
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "13523c10-6ed9-4837-825d-c611bbf67e42",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:11:00.000Z",
+      "last_edited_time": "2024-10-27T03:14:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/notionpresso/nextjs-blog-template",
+              "link": {
+                "url": "https://github.com/notionpresso/nextjs-blog-template"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/notionpresso/nextjs-blog-template",
+            "href": "https://github.com/notionpresso/nextjs-blog-template"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 에 접속하세요",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 에 접속하세요",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "745183ea-b862-43e2-b955-2e8be154f12d",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:22:00.000Z",
+      "last_edited_time": "2024-10-27T03:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "우측 상단에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "우측 상단에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Use this template",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Use this template",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 버튼 클릭 ⇒ ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 버튼 클릭 ⇒ ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Create a new repository ",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Create a new repository ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "선택",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "선택",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4f5df8c6-727a-4290-9cac-a6952f6a922a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:11:00.000Z",
+      "last_edited_time": "2024-10-27T03:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_1.png",
+          "expiry_time": "2024-10-27T06:58:06.953Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f0751253-35cc-47df-9905-162614f774eb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:23:00.000Z",
+      "last_edited_time": "2024-10-27T03:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Owner 를 설정하고 Repository Name을 입력하세요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Owner 를 설정하고 Repository Name을 입력하세요.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "7b1093e1-163f-4b2c-b3ff-8ecbcfd9cecb",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:23:00.000Z",
+      "last_edited_time": "2024-10-27T03:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_2.png",
+          "expiry_time": "2024-10-27T06:58:09.247Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "48ac746b-cc04-4159-9edb-d3e387400548",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:24:00.000Z",
+      "last_edited_time": "2024-10-27T03:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "모든 정보를 입력한 이후에 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "모든 정보를 입력한 이후에 ",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "Create repository",
+              "link": null
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Create repository",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 버튼을 클릭하세요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " 버튼을 클릭하세요.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "eb9894d0-1a0a-413a-84b3-b579215e0772",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:22:00.000Z",
+      "last_edited_time": "2024-10-27T03:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_3.png",
+          "expiry_time": "2024-10-27T06:58:09.253Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "9459691a-5219-4d93-a84f-8c196637edde",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:24:00.000Z",
+      "last_edited_time": "2024-10-27T03:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "버튼을 누르면 template 을 기반으로 repository가 생성됩니다. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "버튼을 누르면 template 을 기반으로 repository가 생성됩니다. ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f0bd3b20-a36c-40ed-a798-4b31d9cc092b",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:24:00.000Z",
+      "last_edited_time": "2024-10-27T03:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_4.png",
+          "expiry_time": "2024-10-27T06:58:09.228Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "4d24e86f-8a11-4341-b342-73adfe82f95c",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:27:00.000Z",
+      "last_edited_time": "2024-10-27T03:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "자 이제 notion blog 를 만들기 위한 repository 가 완성되었어요!",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "자 이제 notion blog 를 만들기 위한 repository 가 완성되었어요!",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "b3024800-109e-4f23-afa3-c9b4d55f92e3",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:28:00.000Z",
+      "last_edited_time": "2024-10-27T03:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_5.png",
+          "expiry_time": "2024-10-27T06:58:09.254Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "d8b76277-9370-441d-9eb9-bcefdae62be5",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:28:00.000Z",
+      "last_edited_time": "2024-10-27T03:28:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [],
         "color": "default"
       },
       "blocks": []
@@ -5792,14 +6365,14 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:44:00.000Z",
-      "last_edited_time": "2024-10-24T09:44:00.000Z",
+      "last_edited_time": "2024-10-27T03:31:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "has_children": false,
       "archived": false,
@@ -5810,7 +6383,7 @@
           {
             "type": "text",
             "text": {
-              "content": "먼저 프로젝트를 내 컴퓨터로 가져와봅시다:",
+              "content": "먼저 프로젝트를 내 컴퓨터로 가져와봅시다. 만들어진 레포지토리 에서 code 버튼을 클릭한 뒤 레포지토리 주소를 복사하세요.",
               "link": null
             },
             "annotations": {
@@ -5821,7 +6394,83 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "먼저 프로젝트를 내 컴퓨터로 가져와봅시다:",
+            "plain_text": "먼저 프로젝트를 내 컴퓨터로 가져와봅시다. 만들어진 레포지토리 에서 code 버튼을 클릭한 뒤 레포지토리 주소를 복사하세요.",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "f2b58d8a-bffa-4afd-aa4c-12f04176124a",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:29:00.000Z",
+      "last_edited_time": "2024-10-27T03:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_6.png",
+          "expiry_time": "2024-10-27T06:58:09.241Z"
+        }
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "19f59c63-e2bf-4866-a5be-4dffd3f65f78",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-27T03:32:00.000Z",
+      "last_edited_time": "2024-10-27T03:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "paragraph",
+      "paragraph": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "이제 컴퓨터에 해당 레포지토리를 복사해봐요.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "이제 컴퓨터에 해당 레포지토리를 복사해봐요.",
             "href": null
           }
         ],
@@ -5837,14 +6486,14 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:44:00.000Z",
-      "last_edited_time": "2024-10-24T09:44:00.000Z",
+      "last_edited_time": "2024-10-27T03:38:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "has_children": false,
       "archived": false,
@@ -5856,7 +6505,7 @@
           {
             "type": "text",
             "text": {
-              "content": "# 프로젝트 복사\ngit clone https://github.com/notionpresso/nextjs-blog-template.git my-blog\n\n# 프로젝트 폴더로 이동\ncd my-blog\n\n# 필요한 패키지 설치\nnpm install\n",
+              "content": "# 프로젝트 복사\n# git clone https://github.com/user-name/notion-blog.git my-blog\ngit clone <copied-url> my-blog\n\n# 프로젝트 폴더로 이동\ncd my-blog\n\n# 필요한 패키지 설치\nnpm install\n",
               "link": null
             },
             "annotations": {
@@ -5867,7 +6516,7 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "# 프로젝트 복사\ngit clone https://github.com/notionpresso/nextjs-blog-template.git my-blog\n\n# 프로젝트 폴더로 이동\ncd my-blog\n\n# 필요한 패키지 설치\nnpm install\n",
+            "plain_text": "# 프로젝트 복사\n# git clone https://github.com/user-name/notion-blog.git my-blog\ngit clone <copied-url> my-blog\n\n# 프로젝트 폴더로 이동\ncd my-blog\n\n# 필요한 패키지 설치\nnpm install\n",
             "href": null
           }
         ],
@@ -8352,14 +9001,14 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "last_edited_time": "2024-10-26T05:55:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "has_children": false,
       "archived": false,
@@ -8391,20 +9040,20 @@
     },
     {
       "object": "block",
-      "id": "129ce18c-fd83-8043-b0a7-d4ea1162ab45",
+      "id": "4a645334-2e6f-41d1-a2e9-036638135b26",
       "parent": {
         "type": "page_id",
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
-      "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "created_time": "2024-10-26T05:55:00.000Z",
+      "last_edited_time": "2024-10-26T05:55:00.000Z",
       "created_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "has_children": false,
       "archived": false,
@@ -8478,16 +9127,16 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "last_edited_time": "2024-10-26T05:56:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
       "in_trash": false,
       "type": "numbered_list_item",
@@ -8513,7 +9162,39 @@
         ],
         "color": "default"
       },
-      "blocks": []
+      "blocks": [
+        {
+          "object": "block",
+          "id": "e25ee7a8-ef05-4fab-9fe9-9a91e5d441dd",
+          "parent": {
+            "type": "block_id",
+            "block_id": "129ce18c-fd83-806a-95e9-c1853296c668"
+          },
+          "created_time": "2024-10-26T05:48:00.000Z",
+          "last_edited_time": "2024-10-26T05:56:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_7.png",
+              "expiry_time": "2024-10-27T06:58:13.561Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
     },
     {
       "object": "block",
@@ -8523,16 +9204,16 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "last_edited_time": "2024-10-26T05:56:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
       "in_trash": false,
       "type": "numbered_list_item",
@@ -8558,26 +9239,58 @@
         ],
         "color": "default"
       },
-      "blocks": []
+      "blocks": [
+        {
+          "object": "block",
+          "id": "6cf2458b-dee8-47e6-945b-cf41a4b9d66b",
+          "parent": {
+            "type": "block_id",
+            "block_id": "129ce18c-fd83-80f7-96ce-d15244406fd5"
+          },
+          "created_time": "2024-10-26T05:50:00.000Z",
+          "last_edited_time": "2024-10-26T05:56:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_8.png",
+              "expiry_time": "2024-10-27T06:58:13.528Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "129ce18c-fd83-803c-9a28-fffe014c8233",
+      "id": "af3a3e73-266d-47f2-94fb-f35fc20f781b",
       "parent": {
         "type": "page_id",
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
-      "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "created_time": "2024-10-26T05:55:00.000Z",
+      "last_edited_time": "2024-10-26T05:56:00.000Z",
       "created_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
       "in_trash": false,
       "type": "numbered_list_item",
@@ -8603,26 +9316,58 @@
         ],
         "color": "default"
       },
-      "blocks": []
+      "blocks": [
+        {
+          "object": "block",
+          "id": "156eb34b-ecee-4ddc-bb85-8617f2183d44",
+          "parent": {
+            "type": "block_id",
+            "block_id": "af3a3e73-266d-47f2-94fb-f35fc20f781b"
+          },
+          "created_time": "2024-10-26T05:54:00.000Z",
+          "last_edited_time": "2024-10-26T05:56:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_9.png",
+              "expiry_time": "2024-10-27T06:58:15.320Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
     },
     {
       "object": "block",
-      "id": "129ce18c-fd83-801c-92ac-dae29b5ecc12",
+      "id": "aba954fe-a5f4-4466-98e7-dab2ae090320",
       "parent": {
         "type": "page_id",
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
-      "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "created_time": "2024-10-26T05:55:00.000Z",
+      "last_edited_time": "2024-10-26T12:31:00.000Z",
       "created_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
       "in_trash": false,
       "type": "numbered_list_item",
@@ -8631,7 +9376,7 @@
           {
             "type": "text",
             "text": {
-              "content": "Submit 버튼 클릭",
+              "content": "workspace 설정 ",
               "link": null
             },
             "annotations": {
@@ -8642,13 +9387,199 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "Submit 버튼 클릭",
+            "plain_text": "workspace 설정 ",
             "href": null
           }
         ],
         "color": "default"
       },
-      "blocks": []
+      "blocks": [
+        {
+          "object": "block",
+          "id": "419a040d-47be-48f1-bf5f-218682f07a84",
+          "parent": {
+            "type": "block_id",
+            "block_id": "aba954fe-a5f4-4466-98e7-dab2ae090320"
+          },
+          "created_time": "2024-10-26T12:31:00.000Z",
+          "last_edited_time": "2024-10-26T12:31:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_10.png",
+              "expiry_time": "2024-10-27T06:58:13.334Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "979012e4-e499-4267-98ac-6ff7d15e9e91",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-26T05:55:00.000Z",
+      "last_edited_time": "2024-10-26T12:32:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "type 설정 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "type 설정 ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "6312f9c2-db8e-45e7-b8ad-aa55d21a3b23",
+          "parent": {
+            "type": "block_id",
+            "block_id": "979012e4-e499-4267-98ac-6ff7d15e9e91"
+          },
+          "created_time": "2024-10-26T12:32:00.000Z",
+          "last_edited_time": "2024-10-26T12:32:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_11.png",
+              "expiry_time": "2024-10-27T06:58:13.406Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "2ee0de86-95f7-4644-a87e-8acf729d6b4f",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-26T05:56:00.000Z",
+      "last_edited_time": "2024-10-26T12:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Save 버튼 클릭",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Save 버튼 클릭",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "6bc7dc8e-f05a-4c1d-8b7d-4f2ed2aa1ce1",
+          "parent": {
+            "type": "block_id",
+            "block_id": "2ee0de86-95f7-4644-a87e-8acf729d6b4f"
+          },
+          "created_time": "2024-10-26T12:34:00.000Z",
+          "last_edited_time": "2024-10-26T12:34:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_12.png",
+              "expiry_time": "2024-10-27T06:58:13.395Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
     },
     {
       "object": "block",
@@ -8658,14 +9589,14 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "last_edited_time": "2024-10-26T12:34:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "has_children": false,
       "archived": false,
@@ -8692,6 +9623,37 @@
           }
         ],
         "color": "default"
+      },
+      "blocks": []
+    },
+    {
+      "object": "block",
+      "id": "1176af22-74bb-46a5-9c72-3590718baac9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-26T12:34:00.000Z",
+      "last_edited_time": "2024-10-26T12:34:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": false,
+      "archived": false,
+      "in_trash": false,
+      "type": "image",
+      "image": {
+        "caption": [],
+        "type": "file",
+        "file": {
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_13.png",
+          "expiry_time": "2024-10-27T06:58:09.666Z"
+        }
       },
       "blocks": []
     },
@@ -8794,16 +9756,16 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "last_edited_time": "2024-10-26T13:46:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
       "in_trash": false,
       "type": "numbered_list_item",
@@ -8812,7 +9774,7 @@
           {
             "type": "text",
             "text": {
-              "content": "블로그 글을 작성할 노션 페이지 열기",
+              "content": "블로그 글을 작성할 노션 페이지 열기 ⇒  오른쪽 상단 ",
               "link": null
             },
             "annotations": {
@@ -8823,41 +9785,30 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "블로그 글을 작성할 노션 페이지 열기",
+            "plain_text": "블로그 글을 작성할 노션 페이지 열기 ⇒  오른쪽 상단 ",
             "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "129ce18c-fd83-806f-9dd1-d2f460c134ef",
-      "parent": {
-        "type": "page_id",
-        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
-      },
-      "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "rich_text": [
+          },
           {
             "type": "text",
             "text": {
-              "content": "오른쪽 상단 \"Share\" 버튼 클릭",
+              "content": "○ ○ ○",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "○ ○ ○",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 버튼 클릭 ⇒ ",
               "link": null
             },
             "annotations": {
@@ -8868,41 +9819,30 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "오른쪽 상단 \"Share\" 버튼 클릭",
+            "plain_text": " 버튼 클릭 ⇒ ",
             "href": null
-          }
-        ],
-        "color": "default"
-      },
-      "blocks": []
-    },
-    {
-      "object": "block",
-      "id": "129ce18c-fd83-80f6-9194-fe89730bbd86",
-      "parent": {
-        "type": "page_id",
-        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
-      },
-      "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
-      "created_by": {
-        "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
-      },
-      "last_edited_by": {
-        "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
-      },
-      "has_children": false,
-      "archived": false,
-      "in_trash": false,
-      "type": "numbered_list_item",
-      "numbered_list_item": {
-        "rich_text": [
+          },
           {
             "type": "text",
             "text": {
-              "content": "\"Invite\" 섹션에서 방금 만든 integration 검색",
+              "content": "Connect to",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            },
+            "plain_text": "Connect to",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " 클릭 ⇒ 방금 만든 integration 검색 해서 클릭 ",
               "link": null
             },
             "annotations": {
@@ -8913,13 +9853,45 @@
               "code": false,
               "color": "default"
             },
-            "plain_text": "\"Invite\" 섹션에서 방금 만든 integration 검색",
+            "plain_text": " 클릭 ⇒ 방금 만든 integration 검색 해서 클릭 ",
             "href": null
           }
         ],
         "color": "default"
       },
-      "blocks": []
+      "blocks": [
+        {
+          "object": "block",
+          "id": "cc2e9548-83b0-48d7-80a2-220d78a10ce9",
+          "parent": {
+            "type": "block_id",
+            "block_id": "129ce18c-fd83-801f-99a5-d0b841af6d87"
+          },
+          "created_time": "2024-10-26T13:46:00.000Z",
+          "last_edited_time": "2024-10-26T13:46:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_14.png",
+              "expiry_time": "2024-10-27T06:58:13.343Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
     },
     {
       "object": "block",
@@ -8929,16 +9901,16 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "last_edited_time": "2024-10-26T13:46:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
       "in_trash": false,
       "type": "numbered_list_item",
@@ -8964,7 +9936,116 @@
         ],
         "color": "default"
       },
-      "blocks": []
+      "blocks": [
+        {
+          "object": "block",
+          "id": "a369ff39-d255-4c1e-81fd-58d2ff7d84c7",
+          "parent": {
+            "type": "block_id",
+            "block_id": "129ce18c-fd83-801e-8ff1-ceff7c3cfb9f"
+          },
+          "created_time": "2024-10-26T13:46:00.000Z",
+          "last_edited_time": "2024-10-26T13:46:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_15.png",
+              "expiry_time": "2024-10-27T06:58:13.459Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
+    },
+    {
+      "object": "block",
+      "id": "8eee6d72-c51e-4a3e-b5be-a217b462bef9",
+      "parent": {
+        "type": "page_id",
+        "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
+      },
+      "created_time": "2024-10-26T12:45:00.000Z",
+      "last_edited_time": "2024-10-26T13:46:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+      },
+      "has_children": true,
+      "archived": false,
+      "in_trash": false,
+      "type": "numbered_list_item",
+      "numbered_list_item": {
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "권한 확인하기 ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "권한 확인하기 ",
+            "href": null
+          }
+        ],
+        "color": "default"
+      },
+      "blocks": [
+        {
+          "object": "block",
+          "id": "4ef3eda8-ae62-4b10-a548-5ce682b2b315",
+          "parent": {
+            "type": "block_id",
+            "block_id": "8eee6d72-c51e-4a3e-b5be-a217b462bef9"
+          },
+          "created_time": "2024-10-26T13:46:00.000Z",
+          "last_edited_time": "2024-10-26T13:46:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_16.png",
+              "expiry_time": "2024-10-27T06:58:13.608Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
     },
     {
       "object": "block",
@@ -9065,16 +10146,16 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:45:00.000Z",
+      "last_edited_time": "2024-10-26T13:47:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
-      "has_children": false,
+      "has_children": true,
       "archived": false,
       "in_trash": false,
       "type": "numbered_list_item",
@@ -9100,7 +10181,39 @@
         ],
         "color": "default"
       },
-      "blocks": []
+      "blocks": [
+        {
+          "object": "block",
+          "id": "b3e814b1-b41e-425f-8c8b-8ad044f5ebe4",
+          "parent": {
+            "type": "block_id",
+            "block_id": "129ce18c-fd83-80fc-8719-c257f1f9f041"
+          },
+          "created_time": "2024-10-26T13:47:00.000Z",
+          "last_edited_time": "2024-10-26T13:47:00.000Z",
+          "created_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "last_edited_by": {
+            "object": "user",
+            "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
+          },
+          "has_children": false,
+          "archived": false,
+          "in_trash": false,
+          "type": "image",
+          "image": {
+            "caption": [],
+            "type": "file",
+            "file": {
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_17.png",
+              "expiry_time": "2024-10-27T06:58:13.320Z"
+            }
+          },
+          "blocks": []
+        }
+      ]
     },
     {
       "object": "block",
@@ -9110,14 +10223,14 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T09:45:00.000Z",
-      "last_edited_time": "2024-10-24T09:46:00.000Z",
+      "last_edited_time": "2024-10-26T13:33:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
       },
       "last_edited_by": {
         "object": "user",
-        "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
+        "id": "766986c2-9962-4041-904f-e8d9f50fcfb3"
       },
       "has_children": false,
       "archived": false,
@@ -14446,8 +15559,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_1.png",
-          "expiry_time": "2024-10-24T11:44:54.560Z"
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_18.png",
+          "expiry_time": "2024-10-27T06:58:10.415Z"
         }
       },
       "blocks": []
@@ -14477,8 +15590,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_2.png",
-          "expiry_time": "2024-10-24T11:44:54.556Z"
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_19.png",
+          "expiry_time": "2024-10-27T06:58:10.520Z"
         }
       },
       "blocks": []
@@ -14791,8 +15904,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_3.png",
-          "expiry_time": "2024-10-24T11:44:54.821Z"
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_20.png",
+          "expiry_time": "2024-10-27T06:58:10.423Z"
         }
       },
       "blocks": []
@@ -15060,8 +16173,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_4.png",
-          "expiry_time": "2024-10-24T11:44:54.832Z"
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_21.png",
+          "expiry_time": "2024-10-27T06:58:10.435Z"
         }
       },
       "blocks": []
@@ -15353,8 +16466,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_5.png",
-          "expiry_time": "2024-10-24T11:44:54.782Z"
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_22.png",
+          "expiry_time": "2024-10-27T06:58:10.476Z"
         }
       },
       "blocks": []
@@ -17194,8 +18307,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_6.png",
-              "expiry_time": "2024-10-24T11:44:56.330Z"
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_23.png",
+              "expiry_time": "2024-10-27T06:58:13.419Z"
             }
           },
           "blocks": []
@@ -17316,8 +18429,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_7.png",
-              "expiry_time": "2024-10-24T11:44:56.148Z"
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_24.png",
+              "expiry_time": "2024-10-27T06:58:13.523Z"
             }
           },
           "blocks": []
@@ -17484,8 +18597,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_8.png",
-              "expiry_time": "2024-10-24T11:44:56.259Z"
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_25.png",
+              "expiry_time": "2024-10-27T06:58:13.337Z"
             }
           },
           "blocks": []
@@ -17561,8 +18674,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_9.png",
-              "expiry_time": "2024-10-24T11:44:56.234Z"
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_26.png",
+              "expiry_time": "2024-10-27T06:58:13.364Z"
             }
           },
           "blocks": []
@@ -17794,8 +18907,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_10.png",
-          "expiry_time": "2024-10-24T11:44:55.432Z"
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_27.png",
+          "expiry_time": "2024-10-27T06:58:11.867Z"
         }
       },
       "blocks": []
@@ -17825,8 +18938,8 @@
         "caption": [],
         "type": "file",
         "file": {
-          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_11.png",
-          "expiry_time": "2024-10-24T11:44:55.413Z"
+          "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_28.png",
+          "expiry_time": "2024-10-27T06:58:11.857Z"
         }
       },
       "blocks": []
@@ -18454,8 +19567,8 @@
             "caption": [],
             "type": "file",
             "file": {
-              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_12.png",
-              "expiry_time": "2024-10-24T11:44:56.328Z"
+              "url": "/notion-data/126ce18c-fd83-80a5-8260-d757c56405b2/image_29.png",
+              "expiry_time": "2024-10-27T06:58:13.456Z"
             }
           },
           "blocks": []
@@ -19375,7 +20488,7 @@
         "page_id": "126ce18c-fd83-80a5-8260-d757c56405b2"
       },
       "created_time": "2024-10-24T10:38:00.000Z",
-      "last_edited_time": "2024-10-24T10:38:00.000Z",
+      "last_edited_time": "2024-10-25T08:32:00.000Z",
       "created_by": {
         "object": "user",
         "id": "95fc0174-8fc6-4114-8e45-f67eacd99f07"
@@ -19409,7 +20522,7 @@
             "href": null
           }
         ],
-        "language": "plain text"
+        "language": "javascript"
       },
       "blocks": []
     },
